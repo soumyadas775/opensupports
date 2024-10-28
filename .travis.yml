@@ -13,9 +13,9 @@ before_install:
 - rvm use 2.3 --install --binary --fuzzy
 - ruby --version
 - mysql -e 'CREATE DATABASE development;'
-- nvm install 6.14.4
-- npm install -g npm@6.1.0
-- npm install -g mocha@6.2.0
+- nvm install 6.15.5
+- npm install -g npm@6.2.0
+- npm install -g mocha@6.3.0
 - cd client
 - npm install
 - cd ../tests
